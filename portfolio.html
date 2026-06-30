@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Deepanshu Mehra | Portfolio</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="style.css">
+
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+rel="stylesheet"
+/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#04070f;
+overflow-x:hidden;
+color:white;
+
+}
+
+
+/* Aurora Background */
+
+body::before{
+
+content:'';
+
+position:fixed;
+
+width:900px;
+height:900px;
+
+background:radial-gradient(circle,#8b5cf6 0%,transparent 60%);
+top:-250px;
+left:-250px;
+
+filter:blur(80px);
+
+animation:moveOne 18s infinite alternate;
+
+z-index:-4;
+
+}
+
+body::after{
+
+content:'';
+
+position:fixed;
+
+width:850px;
+height:850px;
+
+background:radial-gradient(circle,#06b6d4 0%,transparent 60%);
+
+bottom:-300px;
+
+right:-300px;
+
+filter:blur(80px);
+
+animation:moveTwo 18s infinite alternate;
+
+z-index:-4;
+
+}
+
+@keyframes moveOne{
+
+0%{
+transform:translate(0,0);
+}
+
+100%{
+transform:translate(220px,120px);
+}
+
+}
+
+@keyframes moveTwo{
+
+0%{
+transform:translate(0,0);
+}
+
+100%{
+transform:translate(-220px,-150px);
+}
+
+}
+
+.glass{
+
+background:rgba(255,255,255,.06);
+
+backdrop-filter:blur(16px);
+
+border:1px solid rgba(255,255,255,.15);
+
+box-shadow:0 0 35px rgba(255,255,255,.08);
+
+}
+
+.gradient {
+    background: linear-gradient(90deg, #7c3aed, #06b6d4, #38bdf8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn{
+
+padding:14px 30px;
+
+border-radius:50px;
+
+font-weight:600;
+
+transition:.4s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-5px);
+
+}
+
+.social a{
+
+width:50px;
+
+height:50px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.08);
+
+transition:.4s;
+
+font-size:20px;
+
+}
+
+.social a:hover{
+
+background:#7c3aed;
+
+transform:translateY(-8px);
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="fixed top-0 left-0 w-full z-50">
+
+<div class="max-w-7xl mx-auto">
+
+<div class="glass flex justify-between items-center rounded-full mt-5 px-8 py-4">
+
+<h2 class="text-2xl font-bold gradient">
+
+Deepanshu Mehra
+
+</h2>
+
+<ul class="hidden md:flex gap-8 font-medium">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#education">Education</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#Certifications">Certifications</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- Hero -->
+
+<section id="home" class="min-h-screen flex items-center">
+
+<div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 px-6">
+
+<div>
+
+<p class="text-cyan-400 text-lg">
+
+Hello, I'm
+
+</p>
+
+<h1 class="text-6xl md:text-7xl font-extrabold mt-3">
+
+Deepanshu
+
+<span class="gradient">
+
+Mehra
+
+</span>
+
+</h1>
+
+<h2 class="text-3xl mt-6 font-semibold">
+
+AI & Data Science Student
+
+</h2>
+
+<p class="mt-8 text-gray-300 leading-8">
+
+Passionate Computer Science student specializing in Artificial Intelligence
+and Data Science. I love building intelligent applications using Python,
+Flutter and Machine Learning while continuously exploring modern
+technologies.
+
+</p>
+
+<div class="flex gap-5 mt-10">
+
+<a href="#contact"
+class="btn bg-violet-600">
+
+Hire Me
+
+</a>
+
+<a href="#projects"
+class="btn glass">
+
+View Projects
+
+</a>
+
+</div>
+
+<div class="social flex gap-5 mt-12">
+
+<a href="https://github.com/deepanshum45" target="_blank">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="https://linkedin.com/in/deepanshu-mehra-b024b9326" target="_blank">
+
+<i class="fab fa-linkedin-in"></i>
+
+</a>
+
+<a href="mailto:deepanshum604@gmail.com">
+
+<i class="fas fa-envelope"></i>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="flex justify-center items-center">
+
+<div class="glass p-3 rounded-full">
+
+<img
+
+src="https://avatars.githubusercontent.com/u/9919?v=4"
+
+class="rounded-full w-[380px] h-[380px] object-cover"
+
+/>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-5xl font-bold text-center mb-16">
+
+About <span class="gradient">Me</span>
+
+</h2>
+
+<div class="grid lg:grid-cols-2 gap-12">
+
+<div class="glass rounded-3xl p-10">
+
+<h3 class="text-3xl font-bold mb-6">
+
+Who am I?
+
+</h3>
+
+<p class="text-gray-300 leading-8">
+
+I'm <span class="text-cyan-400">Deepanshu Mehra</span>, a Computer Science Engineering student specializing in Artificial Intelligence and Data Science.
+
+I enjoy solving real-world problems through technology and continuously learning new skills in AI, Machine Learning, Web Development, and Data Analytics.
+
+</p>
+
+<p class="text-gray-300 leading-8 mt-6">
+
+Currently, I'm looking for internship opportunities where I can contribute to meaningful projects while improving my technical and problem-solving abilities.
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-10">
+
+<h3 class="text-3xl font-bold mb-6">
+
+Personal Information
+
+</h3>
+
+<div class="space-y-5 text-lg">
+
+<p><span class="text-cyan-400">Name :</span> Deepanshu Mehra</p>
+
+<p><span class="text-cyan-400">Email :</span> deepanshum604@gmail.com</p>
+
+<p><span class="text-cyan-400">Phone :</span> +91 7999410276</p>
+
+<p><span class="text-cyan-400">Degree :</span> B.Tech CSE (AI & DS)</p>
+
+<p><span class="text-cyan-400">Location :</span> Madhya Pradesh, India</p>
+
+<p><span class="text-cyan-400">Looking For :</span> AI/Data Science Internship</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education" class="py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-5xl font-bold text-center mb-16">
+
+Education
+
+</h2>
+
+<div class="space-y-10">
+
+<div class="glass rounded-3xl p-8">
+
+<h3 class="text-2xl font-bold">
+
+B.Tech in Computer Science Engineering
+
+</h3>
+
+<p class="text-cyan-400 mt-2">
+
+Artificial Intelligence & Data Science
+
+</p>
+
+<p class="text-gray-300 mt-2">
+
+2024 – 2028
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-8">
+
+<h3 class="text-2xl font-bold">
+
+Class XII
+
+</h3>
+
+<p class="text-cyan-400 mt-2">
+
+Rose Mary Hr. Sec. School
+
+</p>
+
+<p class="text-gray-300 mt-2">
+
+MP Board | 75.2%
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-8">
+
+<h3 class="text-2xl font-bold">
+
+Class X
+
+</h3>
+
+<p class="text-cyan-400 mt-2">
+
+Rose Mary Hr. Sec. School
+
+</p>
+
+<p class="text-gray-300 mt-2">
+
+MP Board | 72%
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-5xl font-bold text-center mb-16">
+
+Technical Skills
+
+</h2>
+
+<div class="grid lg:grid-cols-2 gap-10">
+
+<div>
+
+<div class="mb-8">
+
+<div class="flex justify-between mb-2">
+
+<span>Python</span>
+
+<span>40%</span>
+
+</div>
+
+<div class="w-full bg-gray-700 rounded-full h-3">
+
+<div class="bg-cyan-400 h-3 rounded-full w-[90%]"></div>
+
+</div>
+
+</div>
+
+<div class="mb-8">
+
+<div class="flex justify-between mb-2">
+
+<span>C++</span>
+
+<span>50%</span>
+
+</div>
+
+<div class="w-full bg-gray-700 rounded-full h-3">
+
+<div class="bg-violet-500 h-3 rounded-full w-[85%]"></div>
+
+</div>
+
+</div>
+
+<div class="mb-8">
+
+<div class="flex justify-between mb-2">
+
+<span>C</span>
+
+<span>40%</span>
+
+</div>
+
+<div class="w-full bg-gray-700 rounded-full h-3">
+
+<div class="bg-pink-500 h-3 rounded-full w-[80%]"></div>
+
+</div>
+
+</div>
+
+<div class="mb-8">
+
+<div class="flex justify-between mb-2">
+
+<span>HTML & CSS</span>
+
+<span>60%</span>
+
+</div>
+
+<div class="w-full bg-gray-700 rounded-full h-3">
+
+<div class="bg-blue-500 h-3 rounded-full w-[88%]"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div class="grid grid-cols-2 gap-6">
+
+<div class="glass p-8 rounded-3xl text-center">
+
+<i class="fab fa-python text-5xl text-yellow-400 mb-4"></i>
+
+<h3 class="font-semibold">Python</h3>
+
+</div>
+
+<div class="glass p-8 rounded-3xl text-center">
+
+<i class="fas fa-database text-5xl text-cyan-400 mb-4"></i>
+
+<h3 class="font-semibold">MySQL</h3>
+
+</div>
+
+<div class="glass p-8 rounded-3xl text-center">
+
+<i class="fab fa-github text-5xl mb-4"></i>
+
+<h3 class="font-semibold">GitHub</h3>
+
+</div>
+
+<div class="glass p-8 rounded-3xl text-center">
+
+<i class="fas fa-code text-5xl text-pink-400 mb-4"></i>
+
+<h3 class="font-semibold">OOP</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-5xl font-bold text-center mb-16">
+
+Featured <span class="gradient">Project</span>
+
+</h2>
+
+<div class="glass rounded-3xl overflow-hidden hover:scale-[1.02] transition duration-500">
+
+<div class="grid lg:grid-cols-2">
+
+<div class="p-10 flex justify-center items-center">
+
+<img
+src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900"
+class="rounded-2xl shadow-2xl"
+/>
+
+</div>
+
+<div class="p-10">
+
+<h3 class="text-3xl font-bold mb-6">
+
+AI Parent–Student Monitoring App
+
+</h3>
+
+<p class="text-gray-300 leading-8">
+
+A smart mobile application designed to connect parents, students, and teachers in one platform.
+
+The application provides:
+
+</p>
+
+<ul class="mt-6 space-y-3 text-gray-300">
+
+<li>✅ Live Attendance Tracking</li>
+
+<li>✅ Assignment Updates</li>
+
+<li>✅ Marks Monitoring</li>
+
+<li>✅ AI Study Suggestions</li>
+
+<li>✅ Teacher-Parent Communication</li>
+
+<li>✅ Student Progress Analysis</li>
+
+</ul>
+
+<div class="mt-8">
+
+<h4 class="font-semibold mb-2 text-cyan-400">
+
+Technologies Used
+
+</h4>
+
+<div class="flex flex-wrap gap-3">
+
+<span class="glass px-4 py-2 rounded-full">Flutter</span>
+
+<span class="glass px-4 py-2 rounded-full">Supabase</span>
+
+<span class="glass px-4 py-2 rounded-full">PostgreSQL</span>
+
+<span class="glass px-4 py-2 rounded-full">AI</span>
+
+</div>
+
+</div>
+
+<a
+href="https://web-chi-snowy-74.vercel.app/"
+target="_blank"
+class="inline-block mt-10 bg-violet-600 px-8 py-4 rounded-full hover:bg-cyan-500 transition">
+
+View Project
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section class="py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-5xl font-bold text-center mb-16">
+
+Certifications
+
+</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+<div class="glass rounded-3xl p-8 hover:-translate-y-3 transition">
+
+<div class="text-5xl mb-5">
+
+🏆
+
+</div>
+
+<h3 class="font-semibold text-xl">
+
+Introduction to Modern AI
+
+</h3>
+
+<p class="mt-3 text-cyan-400">
+
+Cisco
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-8 hover:-translate-y-3 transition">
+
+<div class="text-5xl mb-5">
+
+🤖
+
+</div>
+
+<h3 class="font-semibold text-xl">
+
+Apply AI
+
+</h3>
+
+<p class="mt-3 text-cyan-400">
+
+Cisco
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-8 hover:-translate-y-3 transition">
+
+<div class="text-5xl mb-5">
+
+✨
+
+</div>
+
+<h3 class="font-semibold text-xl">
+
+Generative AI Mastermind
+
+</h3>
+
+<p class="mt-3 text-cyan-400">
+
+Outskill
+
+</p>
+
+</div>
+
+<div class="glass rounded-3xl p-8 hover:-translate-y-3 transition">
+
+<div class="text-5xl mb-5">
+
+📱
+
+</div>
+
+<h3 class="font-semibold text-xl">
+
+Mobile App Development
+
+</h3>
+
+<p class="mt-3 text-cyan-400">
+
+VAC
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ACTIVITIES ================= -->
+
+<section class="py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-5xl font-bold text-center mb-16">
+
+Hackathons & Activities
+
+</h2>
+
+<div class="space-y-8">
+
+<div class="glass rounded-3xl p-8 flex items-center gap-6">
+
+<div class="text-5xl">
+
+💡
+
+</div>
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+BGI Hackathon 2026
+
+</h3>
+
+<p class="text-gray-400">
+
+Participant
+
+</p>
+
+</div>
+
+</div>
+
+<div class="glass rounded-3xl p-8 flex items-center gap-6">
+
+<div class="text-5xl">
+
+🚀
+
+</div>
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+Smart India Hackathon 2026
+
+</h3>
+
+<p class="text-gray-400">
+
+Participant
+
+</p>
+
+</div>
+
+</div>
+
+<div class="glass rounded-3xl p-8 flex items-center gap-6">
+
+<div class="text-5xl">
+
+🏅
+
+</div>
+
+<div>
+
+<h3 class="text-2xl font-semibold">
+
+Oriental TechHack 2.0
+
+</h3>
+
+<p class="text-gray-400">
+
+Participant
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="py-24">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-5xl font-bold text-center mb-16">
+
+Get In <span class="gradient">Touch</span>
+
+</h2>
+
+<div class="grid lg:grid-cols-2 gap-12">
+
+<!-- Left -->
+
+<div class="glass rounded-3xl p-10">
+
+<h3 class="text-3xl font-bold mb-8">
+
+Let's Connect
+
+</h3>
+
+<p class="text-gray-300 leading-8 mb-10">
+
+I'm currently looking for internship opportunities in Artificial Intelligence,
+Data Science, Machine Learning and Software Development.
+
+Feel free to contact me.
+
+</p>
+
+<div class="space-y-6">
+
+<div class="flex items-center gap-5">
+
+<i class="fas fa-envelope text-cyan-400 text-2xl"></i>
+
+<span>deepanshum604@gmail.com</span>
+
+</div>
+
+<div class="flex items-center gap-5">
+
+<i class="fas fa-phone text-cyan-400 text-2xl"></i>
+
+<span>+91 7999410276</span>
+
+</div>
+
+<div class="flex items-center gap-5">
+
+<i class="fab fa-github text-cyan-400 text-2xl"></i>
+
+<a href="https://github.com/deepanshum45" target="_blank">
+
+github.com/deepanshum45
+
+</a>
+
+</div>
+
+<div class="flex items-center gap-5">
+
+<i class="fab fa-linkedin text-cyan-400 text-2xl"></i>
+
+<a href="https://linkedin.com/in/deepanshu-mehra-b024b9326" target="_blank">
+
+LinkedIn Profile
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Right -->
+
+<div class="glass rounded-3xl p-10">
+
+<form>
+
+<input
+
+type="text"
+
+placeholder="Your Name"
+
+class="w-full mb-5 bg-transparent border border-gray-600 rounded-xl p-4 outline-none"
+
+/>
+
+<input
+
+type="email"
+
+placeholder="Your Email"
+
+class="w-full mb-5 bg-transparent border border-gray-600 rounded-xl p-4 outline-none"
+
+/>
+
+<textarea
+
+rows="6"
+
+placeholder="Your Message"
+
+class="w-full mb-5 bg-transparent border border-gray-600 rounded-xl p-4 outline-none"
+
+></textarea>
+
+<button
+
+class="w-full bg-violet-600 hover:bg-cyan-500 duration-300 rounded-xl py-4 font-semibold">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="py-10">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="glass rounded-3xl p-8 text-center">
+
+<h2 class="text-3xl font-bold gradient">
+
+Deepanshu Mehra
+
+</h2>
+
+<p class="text-gray-400 mt-5">
+
+AI • Data Science • Machine Learning • Web Development
+
+</p>
+
+<div class="flex justify-center gap-5 mt-8">
+
+<a href="https://github.com/deepanshum45" target="_blank">
+
+<i class="fab fa-github text-3xl hover:text-cyan-400 duration-300"></i>
+
+</a>
+
+<a href="https://linkedin.com/in/deepanshu-mehra-b024b9326" target="_blank">
+
+<i class="fab fa-linkedin text-3xl hover:text-cyan-400 duration-300"></i>
+
+</a>
+
+<a href="mailto:deepanshum604@gmail.com">
+
+<i class="fas fa-envelope text-3xl hover:text-cyan-400 duration-300"></i>
+
+</a>
+
+</div>
+
+<hr class="border-gray-700 my-8">
+
+<p class="text-gray-500">
+
+© 2026 Deepanshu Mehra. All Rights Reserved.
+
+</p>
+
+</div>
+
+</div>
+
+</footer>
+
+<!-- Back To Top -->
+
+<button
+id="topBtn"
+class="fixed bottom-8 right-8 bg-violet-600 w-14 h-14 rounded-full shadow-lg hidden">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+
+<script>
+
+// Back To Top
+
+const btn=document.getElementById("topBtn");
+
+window.onscroll=()=>{
+
+if(document.documentElement.scrollTop>300){
+
+btn.style.display="block";
+
+}else{
+
+btn.style.display="none";
+
+}
+
+}
+
+btn.onclick=()=>{
+
+window.scrollTo({
+
+top:0,
+
+behavior:'smooth'
+
+});
+
+}
+
+// Navbar Active Link
+
+const sections=document.querySelectorAll("section");
+
+const navLinks=document.querySelectorAll("nav ul li a");
+
+window.addEventListener("scroll",()=>{
+
+let current="";
+
+sections.forEach(sec=>{
+
+const top=window.scrollY;
+
+const offset=sec.offsetTop-200;
+
+const height=sec.offsetHeight;
+
+if(top>=offset){
+
+current=sec.getAttribute("id");
+
+}
+
+});
+
+navLinks.forEach(link=>{
+
+link.classList.remove("text-cyan-400");
+
+if(link.getAttribute("href")==="#"+current){
+
+link.classList.add("text-cyan-400");
+
+}
+
+});
+
+});
+
+</script>
+
+</body>
+
+</html>
